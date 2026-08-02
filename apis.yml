@@ -1,7 +1,24 @@
 aid: tengo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tengo.png
 name: Tengo
-description: Tengo is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tengo is an AI-powered public procurement platform that helps companies find,
+  evaluate, and respond to public tenders in one place. Founded in 2023 in France by Hugues
+  Renou and Yoann Gauthier, Tengo covers the full tender lifecycle — sourcing and targeting
+  relevant opportunities, drafting and writing proposals with AI, and managing responses and
+  performance analytics — serving SMEs, mid-sized companies, and large corporations. Tengo
+  raised a €3M round led by Point Nine in 2024. It operates a business-user SaaS with a
+  request-a-demo onboarding and no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/tengo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Public Procurement
+- Tenders
+- GovTech
+- Artificial Intelligence
+- SaaS
+- France
+- Procurement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.tengo.cc
+- type: Blog
+  url: https://tengo.cc/en/blog
+- type: Login
+  url: https://app.tengo.cc/auth/
+- type: SignUp
+  url: https://tengocc.typeform.com/get-demo
+- type: TermsOfService
+  url: https://tengo.cc/en/mentions-legales
+- type: DomainSecurity
+  url: security/tengo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
